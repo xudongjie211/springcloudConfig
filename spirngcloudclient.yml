@@ -6,9 +6,9 @@ spring:
 server:
   prot: 8021
 spring:
-  profile: dev
+  profiles: dev
   application:
-  name: configclient
+    name: configclient
 eureka:
   client:
     service-url:
@@ -17,7 +17,7 @@ eureka:
 server:
   prot: 8022
 spring:
-  profile: test
+  profiles: test
   application:
     name: configclient
 eureka:
