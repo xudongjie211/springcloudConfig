@@ -39,6 +39,12 @@ eureka:
     instance-id: 8081dept
     prefer-ip-address: true     #访问路径
 
+info:
+  app.name: service
+  company.name: www.jnshu.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
     ---
 server:
   port: 8081
@@ -75,3 +81,9 @@ eureka:
   instance:
     instance-id: 8081dept
     prefer-ip-address: true     #访问路径
+
+info:
+  app.name: service
+  company.name: www.jnshu.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
