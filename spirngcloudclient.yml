@@ -3,7 +3,7 @@ spring:
     active:
     - dev
 ---
-service:
+server:
   prot: 8021
 spring:
   profile: dev
@@ -14,7 +14,7 @@ eureka:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
 ---
-service:
+server:
   prot: 8022
 spring:
   profile: test
