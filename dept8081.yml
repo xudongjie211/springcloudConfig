@@ -40,7 +40,7 @@ eureka:
     prefer-ip-address: true     #访问路径
 
     ---
-    server:
+server:
   port: 8081
 
 mybatis:
